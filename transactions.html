@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions - Agent System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .transactions {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .transactions th, .transactions td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .transactions th {
+            background-color: #f2f2f2;
+        }
+
+        .transactions tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .transactions tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agent System</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="deposit.html">Deposit</a>
+        <a href="withdraw.html">Withdraw</a>
+        <a href="transfer.html">Transfer</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="account.html">Account</a>
+        <a href="index.html">Logout</a>
+    </nav>
+    <div class="container">
+        <h2>Transaction History</h2>
+        <table class="transactions">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Transaction Type</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-04-01</td>
+                    <td>Deposit</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>2024-04-03</td>
+                    <td>Withdrawal</td>
+                    <td>$200</td>
+                </tr>
+                <!-- Add more transaction rows here -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        &copy; 2024 Agent System
+    </footer>
+</body>
+</html>
